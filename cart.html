@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-Commerce Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+     <!---header-->
+        <section id="header">
+                <img src="image/e-commerce logo.png" class="logo">
+            <div>    
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping""></i></a></li>
+                    <a href="" id="close"><i class="fa fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i id="shopping" class="fa-solid fa-bag-shopping""></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+    
+     <!---  page-header   -->
+        <section id="page-header" class="about-header">
+                <h2 style="font-weight: 800; font-size: 40px;">#cart</h2>
+                <p>Add your coupon code & SAVE upto 70%!</p>
+        </section>
+
+        <!---Table cart section-->
+
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="image/products/f1.jpeg" alt=""></td>
+                        <td>Cartoon Astronout T-Shirts</td>
+                        <td>$24.50</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$24.50</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="image/products/n7.jpeg" alt=""></td>
+                        <td>Casual height Shoes of 2024</td>
+                        <td>$25.99</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$25.99</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="image/products/f6.jpeg" alt=""></td>
+                        <td>Men's two piece outfit</td>
+                        <td>$32.99</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$32.99</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="image/products/n4.jpeg" alt=""></td>
+                        <td>Watch & 1pc Bracelet- Men Watch</td>
+                        <td>$27.50</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$27.50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--cart-add section-->
+        <section id="cart-add" class="section-p1">
+            <div class="apply-details">
+                <h2>Apply Coupon</h2>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+            </div>
+            <div class="subtotal">
+                <h2>Cart Totals</h2>
+                <table>
+                    <tr>
+                        <td>Cart subtotal</td>
+                        <td>$ 111</td>
+                    </tr>
+                    <tr>
+                        <td>Shopping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$ 111</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+        </section>
+
+    <!---------Footer Section------->
+
+        <footer>
+            <div class="column">
+                <img src="image/e-commerce logo.png" width="50%" height="40%" class="logo-footer">
+                <div class="contact-info">
+                <h4>Contact</h4>
+                <p><strong>Address: </strong>PRH9+RCG, Kolobot Rd, Nairobi.</p>
+                <p><strong>Phone: </strong> +254 728 744 919 / (+254) 746 340 754.</p>
+                <p><strong>Hours: </strong> 10:00am-5:00pm, Mon - Sun.</p>
+            </div>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/Abdisamad Abass"><i class="fab fa-facebook"></i></a>
+                       <a href="https://www.twitter.com/De Bakaj"><i class="fab fa-twitter"></i></a>
+                       <a href="https://www.instagram.com/De Bakaj"> <i class="fab fa-instagram"></i></a>
+                       <a href="https://wa.me/254728744919"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="column column2-4">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="column column2-4">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="column install column2-4">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="image/pay/app.jpg">
+                    <img src="image/pay/play.jpg">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="image/pay/pay.png" alt="">
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024, E-commerce Website. All rights reserverd.</p>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
